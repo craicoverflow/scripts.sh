@@ -117,5 +117,5 @@ spec:
 EOF
 
 # install Mobile Security Service
-kubectl apply -n $mobile-security-service -f https://raw.githubusercontent.com/aerogear/mobile-security-service-operator/master/deploy/crds/mobile-security-service_v1alpha1_mobilesecurityservice_cr.yaml
-kubectl apply -n $mobile-security-service -f https://raw.githubusercontent.com/aerogear/mobile-security-service-operator/master/deploy/crds/mobile-security-service_v1alpha1_mobilesecurityservicedb_cr.yaml
+kubectl apply -n mobile-security-service -f https://raw.githubusercontent.com/aerogear/mobile-security-service-operator/master/deploy/crds/mobile-security-service_v1alpha1_mobilesecurityservice_cr.yaml
+kubectl apply -n mobile-security-service -f https://raw.githubusercontent.com/aerogear/mobile-security-service-operator/master/deploy/crds/mobile-security-service_v1alpha1_mobilesecurityservicedb_cr.yaml
